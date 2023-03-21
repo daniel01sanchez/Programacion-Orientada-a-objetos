@@ -234,4 +234,46 @@ public class Motor {
     }
     
 }
-
+------------------------------------------------------------------------------------------------------------
+public Motor getMotor() {
+        return motor;
+    }
+    
+    public void encenderAuto(){
+        this.motor.encenderMotor();
+    }
+    
+    public void apagarAuto(){
+        this.motor.apagarMotor();
+    }
+    
+    public void acelerarAuto(){
+        this.motor.acelerarMotor();
+    }
+    
+    public void acelerarAuto(float Velocidad){
+        this.motor.acelerarMotor();
+    }
+    
+    public void frenarAuto(){
+        this.motor.frenarMotor();
+    }
+    
+    public void frenarAuto(float Velocidad){
+        this.motor.frenarMotor();
+    }
+    ---------------------------------------------------------------------------------------------
+     JOptionPane.showMessageDialog(null, "Auto 1: \n" + A1);
+        
+        A1.encenderAuto();
+        JOptionPane.showMessageDialog(null, "Auto 1: \n" + A1);
+        A1.acelerarAuto();
+        JOptionPane.showMessageDialog(null, "Auto 1: \n" + A1);
+        A1.acelerarAuto(120f);
+        JOptionPane.showMessageDialog(null, "Auto 1: \n" + A1);
+        A1.frenarAuto();
+        JOptionPane.showMessageDialog(null, "Auto 1: \n" + A1);
+        A1.frenarAuto(120f);
+        JOptionPane.showMessageDialog(null, "Auto 1: \n" + A1);
+        A1.apagarAuto();
+        JOptionPane.showMessageDialog(null, "Auto 1: \n" + A1);
